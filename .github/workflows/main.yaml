@@ -39,9 +39,6 @@ jobs:
       - name: Clone the Repository
         uses: actions/checkout@v2
 
-      - name: Installing Pip
-        run: sudo apt install python3-pip
-
       - name: Installing safety
         run: pip install safety
 
